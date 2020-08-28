@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+.header{
+	border-image: url(banner.jpg)
+}
+.menu-bar{
+	text-align: center;
+	background-color: black;
+	height:70px;
+	line-height: 70px;
+}
+.menu-bar ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.menu-bar ul li a{
+	color: #FFE201;
+	font-size: 22px;
+	transition: 0.8s;
+}
+.menu-bar ul li a:hover{
+	color: #FF2C01;
+	font-size: 25px;
+	transition: 0.8s;
+}
+
+/* banner section css */
+.banner{
+	width: 100%;
+	background-image: url(banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+}
+.banner h1{
+	font-size: 50px;
+	text-align: center;
+	color: #FF2301;
+	padding-top: 20px;
+}
+.social-media{
+	text-align: center;
+	margin-top: 20px;
+}
+.social-media ul li{
+	list-style: none;
+	display: inline-block;
+}
+.social-media ul li a i{
+	font-size: 35px;
+	height: 40px;
+	width: 60px;
+	border-radius: 100px;
+	text-align: center;
+	line-height: 60px;
+	color: #FFE201;
+	margin: 0 5px;
+	transition: 0.8s;
+}
+.social-media ul li a i:hover{
+	color: #FF2C01;
+	transition: 0.8s;
+	transform: scale(1.5);
+}
+.registration{
+	font-size: 8px;
+}
+input{
+	font-size: 15px;
+	border-radius: 10px;
+	margin: 5px;
+	padding: 10px;
+}
